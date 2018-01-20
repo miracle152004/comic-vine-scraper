@@ -7,6 +7,7 @@ This module contains a variety of generally useful utility methods.
 
 import clr
 from time import strftime
+from resources import Resources
 import re
 import sys
 
@@ -370,6 +371,8 @@ def get_html_string(url):
    
    try:
       request = WebRequest.Create(url) 
+      request.UserAgent = "[ComicVineScraper, version " + \
+         Resources.SCRIPT_VERSION + "]" 
       response = request.GetResponse()
       # if the response code is not "OK", throw a web exception immediately.
       # this stops red-herring errors later on as we try to parse bad results.

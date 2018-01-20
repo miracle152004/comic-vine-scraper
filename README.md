@@ -2,9 +2,9 @@
 
 **I am no longer actively developing the Comic Vine Scraper project.**
 
-The [latest release](https://github.com/cbanack/comic-vine-scraper/wiki/Download-and-Installation) of this app is functional as of November 2015, and should remain usable for the foreseeable future.  As my schedule permits, I may continue to provide minor maintenance patches and bugfixes to keep things running smoothly.   I will not be adding new features, however, and I do not have time to review or maintain large pull requests.
+The [latest release](https://github.com/cbanack/comic-vine-scraper/wiki/Download-and-Installation) of this app is functional as of February 2016, and should remain usable for the foreseeable future.  As my schedule permits, I may continue to provide minor maintenance patches and bugfixes to keep things running smoothly.   I will not be adding new features, however, and I do not have time to review or maintain large pull requests.
 
-The code here provides a solid example of how to properly use the [Comic Vine API](http://api.comicvine.com/), should you happen to want to create your own project that does that.   Also, if you are a relatively experienced python developer and you're interested in taking over Comic Vine Scraper, please feel free create your own fork and run with it!
+The code here provides a solid example of how to properly use the [Comic Vine API](http://comicvine.gamespot.com/api/), should you happen to want to create your own project that does that.   Also, if you are a relatively experienced python developer and you're interested in taking over Comic Vine Scraper, please feel free create your own fork and run with it!
 
 For those of you who've used and supported Comic Vine Scraper over the last 7 years, you have my sincere thanks for all your efforts and kind words.  It's been a blast!
 
@@ -19,7 +19,7 @@ can be found on the Comic Vine Scraper [Wiki page](https://github.com/cbanack/co
 
 ### Technical Details
  
-This project is written for Windows, using IronPython and the .NET library.  It displays WinForms graphics and make heavy use of the [ComicVine RESTful API](http://www.comicvine.com/api/).  It is a _plugin_ for the [ComicRack](http://comicrack.cyolito.com/) comic book reader, which is a standalone Windows desktop application. Except during development (see below), Comic Vine Scraper does _not_ run outside of ComicRack's plugin environment.   
+This project is written for Windows, using IronPython and the .NET library.  It displays WinForms graphics and make heavy use of the [ComicVine RESTful API](http://www.comicvine.gamespot.com/api/).  It is a _plugin_ for the [ComicRack](http://comicrack.cyolito.com/) comic book reader, which is a standalone Windows desktop application. Except during development (see below), Comic Vine Scraper does _not_ run outside of ComicRack's plugin environment.   
 
 This project's repository is configured to compile and run in the [Eclipse IDE](https://eclipse.org/) using the [Aptana Pydev](http://pydev.org/) plugin with IronPython correctly installed and configured.
 
